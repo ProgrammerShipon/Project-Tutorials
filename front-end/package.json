@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "TWCSS": "tailwindcss -i ./src/tailwind.css/input/input.css -o ./src/tailwind.css/output/output.css -w",
+    "BuildTWcss": "npx tailwindcss -i ./src/tailwind.css/input/input.css -o ./src/tailwind.css/output/output.css --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Shipon Hossen Raju",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }
